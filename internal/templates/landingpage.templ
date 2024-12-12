@@ -2,7 +2,7 @@ package templates
 
 import "github.com/a-h/templ"
 
-func HomePage() (string, error) {
+func LandingPage() (string, error) {
 return templ.Render(`
 <!DOCTYPE html>
 <html>
@@ -14,7 +14,6 @@ return templ.Render(`
 
 <body>
 	<h1 class="text-2xl font-bold">Hello, World!</h1>
-	<p>Wow</p>
 </body>
 
 </html>
