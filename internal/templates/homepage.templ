@@ -1,0 +1,21 @@
+package templates
+
+import "github.com/a-h/templ"
+
+func HomePage() (string, error) {
+return templ.Render(`
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://unpkg.com/htmx.org"></script>
+	<link rel="stylesheet" href="/static/tailwind.generated.css">
+</head>
+
+<body>
+	<h1 class="text-2xl font-bold">Hello, World!</h1>
+</body>
+
+</html>
+`)
+}

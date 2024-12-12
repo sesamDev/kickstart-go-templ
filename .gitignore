@@ -1,0 +1,47 @@
+# Binary and temporary files
+*.exe
+*.out
+*.tmp
+/tmp/
+*.log
+
+# Compiled Go binaries
+/tmp/main
+/tmp/
+
+# Generated template files
+*.templ.go
+
+# Node modules (for Tailwind CSS)
+node_modules/
+
+# Tailwind output CSS
+dist/tailwind.generated.css
+
+# Air runtime and temporary files
+.air.toml
+.air/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Go-specific files
+bin/
+vendor/
+*.test
+*.prof
+*.coverprofile
+
+# Log files
+*.log
+
+# Environment files
+.env

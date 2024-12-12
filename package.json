@@ -1,0 +1,12 @@
+{
+  "name": "kickstart-go-templ",
+  "version": "0.1.0",
+  "description": "Template to kickstart a go web app",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   "build:css": "npx tailwindcss -i ./internal/static/tailwind.css -o ./dist/tailwind.generated.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
