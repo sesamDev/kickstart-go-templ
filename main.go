@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/sesamdev/kickstart-go-templ/internal/handlers"
+	"github.com/sesamDev/kickstart-go-templ/internal/handlers"
 )
 
 func main() {

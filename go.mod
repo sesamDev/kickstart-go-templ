@@ -1,4 +1,4 @@
-module github.com/sesamdev/kickstart-go-templ
+module github.com/sesamDev/kickstart-go-templ
 
 go 1.23.1
 

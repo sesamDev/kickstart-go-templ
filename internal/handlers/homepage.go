@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/sesamdev/kickstart-go-templ/internal/templates"
+	"github.com/sesamDev/kickstart-go-templ/internal/templates"
 )
 
 func HomePage(c *gin.Context) {
