@@ -6,7 +6,7 @@ import (
 )
 
 func HomePage(c *gin.Context) {
-	rendered, err := templates.HomePage()
+	// rendered, err := templates.HomePage()
 	// if err != nil {
 	// 	c.String(500, "Error rendering page: %v", err)
 	// 	return
